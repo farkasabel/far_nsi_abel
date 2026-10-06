@@ -3,11 +3,12 @@
 <package format="3">
   <name>far_nsi_abel</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="farkasabel2006@gmail.com">TODO:</maintainer>
+  <description>Fahrenheit-Celsius temperature converter package</description>
+  <maintainer email="farkasabel2006@gmail.com">Farkas Ábel</maintainer>
   <license>GNU General Public License v3.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
+
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
   <depend>geometry_msgs</depend>
