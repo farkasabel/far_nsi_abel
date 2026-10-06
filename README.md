@@ -16,7 +16,7 @@ A csomag két C++ node segítségével végez hőmérséklet-konverziót (Fahren
 graph LR
     A[fahrenheit_publisher] -- "/temperature_fahrenheit (std_msgs/Float32)" --> B[celsius_converter]
     B -- "/temperature_celsius (std_msgs/Float32)" --> C((Output / Echo))
-
+```
 
 
 
